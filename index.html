@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <script>
-    window.onload= function(){
-      alert("You ahve been Hacked");
-    };
-    <\script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Popup Example</title>
+    <link rel="stylesheet" type="text/css" href="modifications.css">
+    <script>
+        window.onload = function() {
+            alert("You are hacked!");
+        };
+    </script>
 </head>
 <body>
-  <a href="#" id="popupLink">Click Me!</a>
-
-  <script>
-    document.getElementById('popupLink').addEventListener('click', function (event) {
-      event.preventDefault();
-      alert('You have been hacked!!!.');
-    });
-  </script>
+    <div class="container">
+        <div class="brand-logo"></div>
+        <div class="brand-title">Veltech</div>
+        <div class="inputs">
+            <label>User Name</label>
+            <input type="email" placeholder="vtuxxxxx@veltech.edu.in" /><br>
+            <label>PASSWORD</label>
+            <input type="password" placeholder="DOB" /><br>
+            <button type="submit">LOGIN</button>
+        </div>
+    </div>
 </body>
 </html>
